@@ -1,0 +1,18 @@
+{
+  "name": "logParser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudfront-logs": "^1.0.0",
+    "jsonfile": "^2.4.0",
+    "lodash": "^4.17.2",
+    "moment": "^2.16.0",
+    "node-cmd": "^1.1.1"
+  }
+}
