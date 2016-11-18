@@ -9,8 +9,8 @@ var cmd             = require("node-cmd");
 
 
 var config = {
-    s3Bucket        : "s3://prod-makaan-cloudfront/",
-    logFileName     : "EW7A538551WHZ."+moment().add(-5, 'days').format("YYYY-MM-DD")+"*",
+    s3Bucket        : "s3://elb-logs-prop-makaan/elb-beta-prop/AWSLogs/530913736905/elasticloadbalancing/ap-southeast-1/",
+    logFileName     : moment().add(-1, 'days').format("YYYY/MM/DD")+"*",
     logsDirPath     : "./logs",
     statusCodes     : ["200","500","301","404"],
     groupEmail      : "seo-tech@proptiger.com"
